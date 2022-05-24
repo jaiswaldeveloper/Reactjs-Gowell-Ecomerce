@@ -1,0 +1,71 @@
+.Curtains h2 {
+  text-align: center;
+  align-items: center;
+  color: #18557c;
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+.card-offer {
+  background-color: #18557c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+  position: relative;
+}
+
+.card-offer img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-body span {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.image-logo img {
+  width: 40%;
+  margin-top: -1.2rem;
+}
+
+.card-offer h4 {
+  color: #fff !important;
+  text-align: center;
+  font-family: 'Yeseva One', cursive;
+  font-size: 2rem;
+}
+
+.card-offer p {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'Yeseva One', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+.curtains-content {
+  padding: 1rem;
+}
+@media only screen and (max-width: 676px) {
+  .Curtains h2 {
+    font-size: 2rem;
+  }
+  .curtains-content {
+    padding: 0.5rem;
+  }
+  .card-offer p {
+    font-size: 20px;
+  }
+  .card-offer h4 {
+    font-size: 15px;
+  }
+  .card-offer {
+    margin-bottom: 1rem;
+  }
+}

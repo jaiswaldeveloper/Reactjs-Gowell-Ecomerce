@@ -1,0 +1,151 @@
+.side-space {
+  padding: 0 4rem;
+}
+
+.bg {
+  background-color: #18557c;
+  width: 100%;
+  height: auto;
+}
+
+.nav-support {
+  /* text-align: center; */
+  margin: 10px 10px 10px 10px;
+  color: #000000;
+
+  color: #000000;
+  font-size: 1rem;
+}
+
+.social-icon {
+  margin-left: 1.1rem;
+}
+
+.font-icon {
+  margin: 10px 10px 10px 10px;
+  color: #000000;
+  align-items: center;
+  justify-content: end;
+  font-size: 1.2rem;
+  display: flex;
+  /* margin: 0; */
+}
+
+.search-nav {
+  background-color: #18557c;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 150px 15px 10px;
+}
+
+::placeholder {
+  color: rgb(156, 156, 156) !important;
+}
+
+.top-logo img {
+  width: 54%;
+}
+
+.search-bar {
+  margin: 1rem 0;
+}
+
+.nav-buton {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.social-icon-nav {
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+
+  font-size: 2rem;
+}
+
+.social-icon-nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  color: #18557c;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.social-icon:hover {
+  color: #18557c;
+}
+
+.social-nav-icon {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.nav-btn {
+  color: #fff;
+  background-color: #19567c;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor: pointer;
+  margin: 1.5rem;
+  align-items: center;
+}
+
+.nav-btn :active {
+  transform: translate(4px);
+  box-shadow: 0px 0px 1px rgba (0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.btn-colour {
+  margin-bottom: 0.5rem !important;
+}
+
+.text {
+  margin-right: 30px;
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    white 90%,
+    white 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 200ms;
+}
+.text:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+.white-toogle {
+  background: white;
+}
+
+@media screen and (max-width: 676px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .top-logo img {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .search-nav {
+    padding: 10px;
+  }
+}

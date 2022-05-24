@@ -1,0 +1,117 @@
+.footer ul ::before {
+  content: '\f101';
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.5em;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer {
+  color: #fff;
+  background-color: #18557c;
+
+  width: 100%;
+  height: auto;
+}
+
+.content-footer {
+  display: flex;
+  align-items: center;
+  padding-right: 3px;
+  /* justify-content: center; */
+}
+
+.space {
+  padding: 1rem;
+}
+
+.footer-icon {
+  font-size: 3rem;
+}
+
+.footer-logo {
+  width: 100%;
+  margin-right: 0;
+}
+
+.footer h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer ul li {
+  line-height: 2.3rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+
+  /* list-style: none; */
+}
+.footer ul li :hover {
+  color: rgb(215, 215, 215) !important;
+}
+
+.footer-icon {
+  margin-right: 10px;
+}
+
+.payment-logo img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.footer-section {
+  display: flex;
+  list-style: none;
+  margin: 1.5rem;
+}
+
+.footer-social-icon {
+  font-size: 1.5rem;
+}
+
+.rights {
+  background-color: #012c47;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 1rem 5.5rem;
+}
+
+.rights p {
+  align-items: center;
+  text-align: center;
+  font-size: 1.1rem;
+
+  margin: 0;
+}
+
+.decoration ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-section li {
+  margin-right: 20px;
+}
+
+.footer ul p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.rights img {
+  width: 60%;
+  /* padding: 1rem 0; */
+}
+
+@media (max-width: 600px) {
+  .footer-logo {
+    width: 50%;
+  }
+  .payment-logo {
+    width: 50%;
+  }
+}

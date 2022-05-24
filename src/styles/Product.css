@@ -1,0 +1,67 @@
+.card-section {
+  width: 18rem;
+  height: auto;
+  /* border: 2px solid #18557c; */
+  border-radius: 15px;
+  background-color: #fff;
+  color: #000000;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card-body-section {
+  margin-top: 2rem;
+}
+h3.card-title {
+  font-size: 1.2rem;
+}
+.card-section img {
+  width: 264px;
+  height: 264px;
+  overflow: hidden;
+}
+
+.btn-outline-primary:hover {
+  background-color: #18557c;
+}
+
+.buy-btn {
+  background: #18557c !important;
+  border-radius: 50px !important;
+  font-size: 14px;
+  padding: 7px 25px;
+}
+
+.card-section:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.buy {
+  display: flex;
+  justify-content: space-between;
+}
+.description-body {
+  margin-top: 2rem;
+}
+
+.description-body h6 {
+  font-size: 1.2rem;
+  color: #19567c;
+}
+@media screen and (max-width: 676px) {
+  .card-section img {
+    width: 168px;
+    height: 168px;
+    overflow: hidden;
+  }
+
+  .card-section {
+    width: 12rem;
+  }
+
+  .buy-btn {
+    padding: 7px 10px;
+  }
+}

@@ -1,13 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Domine', serif;
+  font-size: 3rem;
+}
+
+.top-space {
+  margin-top: 2rem;
+}
+
+.product-size img {
+  width: 100%;
+}
+
+.form-logo img {
+  width: 50%;
+}
+
+.btn-colour {
+  background-color: #19567c !important;
+
+  font-size: 1rem;
+  padding: 8px 31px;
+  border-radius: 50px;
+}
+
+.btn-icon {
+  font-size: 1.5rem;
+}
+
+.pro-title-name {
+  font-family: 'Domine', serif;
+  font-size: 2rem;
+  color: #19567c;
+}
+
+.faqs-body {
+  padding: 1rem;
+}
+.faqs-body h5 {
+  padding-bottom: 10px;
+}
+.faqs-body ol li {
+  font-size: 15px;
+}
+.ShippingPolicy h5 {
+  color: #19567c;
+}
+.TermandCondition h3,
+.ShippingPolicy h3,
+.PrivacyPolicy h3,
+.faqs h3 {
+  text-align: center;
+  align-items: center;
+  color: #18557c;
+  margin: 2rem;
+  text-transform: capitalize;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-slide {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+.content-slide h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 2px 2px #449f00;
 }

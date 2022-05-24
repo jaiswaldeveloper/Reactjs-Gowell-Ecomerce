@@ -1,0 +1,90 @@
+.Pillow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Pillow-body {
+  padding: 1rem;
+}
+
+.PillowTitle {
+  font-family: 'Yeseva One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #18557c;
+}
+
+.PillowList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* pillowItem style */
+
+.PillowItem {
+  border-radius: 15px;
+  /* width: 300px;
+  height: 350px; */
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  color: #18557c;
+}
+.PillowItem:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.PillowItem img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Pillow-body p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.Pillow-body h1 {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1300px) {
+  .PillowList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .PillowList {
+    grid-template-columns: 1fr 1fr;
+  }
+  .Pillow-body p {
+    font-size: 20px;
+  }
+  .Pillow-body h1 {
+    font-size: 13px;
+  }
+  .pillow-title h2 {
+    font-size: 2rem;
+  }
+  .Pillow-body {
+    padding: 0.5rem;
+  }
+  .PillowItem img {
+    height: 100px;
+  }
+}

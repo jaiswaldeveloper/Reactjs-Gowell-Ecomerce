@@ -1,0 +1,15 @@
+.about-fluid {
+  width: 100%;
+  height: auto;
+}
+.about-body {
+  padding: 2rem;
+}
+.about-body p {
+  text-align: justify;
+}
+.about-body h4 {
+  font-family: 'Domine', serif;
+  color: #18557c;
+  padding: 0 0 1rem 0;
+}

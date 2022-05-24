@@ -1,0 +1,36 @@
+.delivery-icon {
+  font-size: 2.7rem;
+  color: #19567c;
+}
+
+.delivery h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.content-delivery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.delivery-body {
+  padding: 2rem;
+}
+@media screen and (max-width: 676px) {
+  .delivery-body {
+    padding: 1rem;
+  }
+  .delivery-body h3 {
+    font-size: 14px;
+  }
+  .content-delivery {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+  }
+  .delivery-icon {
+    font-size: 25px;
+  }
+  .banner-bg {
+    margin: 1rem 0;
+  }
+}

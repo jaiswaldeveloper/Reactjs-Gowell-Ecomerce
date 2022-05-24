@@ -1,0 +1,85 @@
+h2 {
+  text-align: center;
+  align-items: center;
+  color: #18557c;
+  text-transform: capitalize;
+}
+.homemat h2 {
+  text-align: center;
+  align-items: center;
+  color: #18557c;
+  margin: 2rem;
+  text-transform: capitalize;
+}
+
+.card-curtains {
+  position: relative;
+  background-color: #18557c;
+  border-radius: 10px;
+  padding: 0 0 5rem 0;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card-curtains img {
+  border-radius: 10px;
+  width: 100%;
+}
+.card-style {
+  padding: 10px;
+  z-index: 100;
+  position: absolute;
+  top: 52%;
+}
+
+.card-white {
+  background-color: #fff;
+  /* margin-bottom: 10%; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-white img {
+  width: 30% !important;
+}
+.card-style h5 {
+  font-size: 2rem;
+  color: #18557c;
+  font-family: 'Domine', serif;
+}
+.card img {
+  width: 100%;
+}
+
+.card-style span {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.height {
+  height: 100%;
+}
+@media screen and (max-width: 676px) {
+  .mrgin-bttm {
+    margin-bottom: 1rem;
+  }
+  .card-style h5 {
+    font-size: 1.1rem;
+  }
+  .card-style span {
+    font-size: 1.2rem;
+  }
+  .card-style {
+    top: 45%;
+  }
+  .nav-buton {
+    padding: 0.5rem;
+  }
+  .homemat h2 {
+    font-size: 2rem;
+  }
+}
